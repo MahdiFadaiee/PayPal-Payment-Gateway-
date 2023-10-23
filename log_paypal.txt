@@ -1,0 +1,188 @@
+(object) array(
+   'id' => 'PAYID-MTZQOSA3EU00446KC0939703',
+   'intent' => 'sale',
+   'state' => 'created',
+   'cart' => '9DT33533CD384683F',
+   'payer' => 
+  (object) array(
+     'payment_method' => 'paypal',
+     'status' => 'VERIFIED',
+     'payer_info' => 
+    (object) array(
+       'email' => 'sb-474kua27109373@personal.example.com',
+       'first_name' => 'John',
+       'last_name' => 'Doe',
+       'payer_id' => '9NY7WT695H692',
+       'shipping_address' => 
+      (object) array(
+         'recipient_name' => 'John Doe',
+         'line1' => '1 Main St',
+         'city' => 'San Jose',
+         'state' => 'CA',
+         'postal_code' => '95131',
+         'country_code' => 'US',
+      ),
+       'country_code' => 'US',
+    ),
+  ),
+   'transactions' => 
+  array (
+    0 => 
+    (object) array(
+       'amount' => 
+      (object) array(
+         'total' => '7.90',
+         'currency' => 'USD',
+         'details' => 
+        (object) array(
+           'subtotal' => '1.95',
+           'tax' => '0.00',
+           'shipping' => '5.95',
+        ),
+      ),
+       'payee' => 
+      (object) array(
+         'merchant_id' => '5DVLGT22TZULC',
+         'email' => 'sb-48zyh27106544@business.example.com',
+      ),
+       'description' => '155 - cutiebeauti',
+       'item_list' => 
+      (object) array(
+         'shipping_address' => 
+        (object) array(
+           'recipient_name' => 'John Doe',
+           'line1' => '1 Main St',
+           'city' => 'San Jose',
+           'state' => 'CA',
+           'postal_code' => '95131',
+           'country_code' => 'US',
+        ),
+      ),
+       'related_resources' => 
+      array (
+      ),
+    ),
+  ),
+   'redirect_urls' => 
+  (object) array(
+     'return_url' => 'https://www.paypal.com/checkoutnow/error?paymentId=PAYID-MTZQOSA3EU00446KC0939703',
+     'cancel_url' => 'https://www.paypal.com/checkoutnow/error',
+  ),
+   'create_time' => '2023-09-02T09:58:32Z',
+   'update_time' => '2023-09-02T09:59:20Z',
+   'links' => 
+  array (
+    0 => 
+    (object) array(
+       'href' => 'https://api.sandbox.paypal.com/v1/payments/payment/PAYID-MTZQOSA3EU00446KC0939703',
+       'rel' => 'self',
+       'method' => 'GET',
+    ),
+    1 => 
+    (object) array(
+       'href' => 'https://api.sandbox.paypal.com/v1/payments/payment/PAYID-MTZQOSA3EU00446KC0939703/execute',
+       'rel' => 'execute',
+       'method' => 'POST',
+    ),
+    2 => 
+    (object) array(
+       'href' => 'https://www.sandbox.paypal.com/cgi-bin/webscr?cmd=_express-checkout&token=EC-9DT33533CD384683F',
+       'rel' => 'approval_url',
+       'method' => 'REDIRECT',
+    ),
+  ),
+)
+(object) array(
+   'id' => 'PAYID-MTZRRNA4LG61584FE857203B',
+   'intent' => 'sale',
+   'state' => 'created',
+   'cart' => '3BJ761469K790952A',
+   'payer' => 
+  (object) array(
+     'payment_method' => 'paypal',
+     'status' => 'VERIFIED',
+     'payer_info' => 
+    (object) array(
+       'email' => 'sb-474kua27109373@personal.example.com',
+       'first_name' => 'John',
+       'last_name' => 'Doe',
+       'payer_id' => '9NY7WT695H692',
+       'shipping_address' => 
+      (object) array(
+         'recipient_name' => 'John Doe',
+         'line1' => '1 Main St',
+         'city' => 'San Jose',
+         'state' => 'CA',
+         'postal_code' => '95131',
+         'country_code' => 'US',
+      ),
+       'country_code' => 'US',
+    ),
+  ),
+   'transactions' => 
+  array (
+    0 => 
+    (object) array(
+       'amount' => 
+      (object) array(
+         'total' => '7.90',
+         'currency' => 'USD',
+         'details' => 
+        (object) array(
+           'subtotal' => '1.95',
+           'tax' => '0.00',
+           'shipping' => '5.95',
+        ),
+      ),
+       'payee' => 
+      (object) array(
+         'merchant_id' => '5DVLGT22TZULC',
+         'email' => 'sb-48zyh27106544@business.example.com',
+      ),
+       'description' => '157 - cutiebeauti',
+       'item_list' => 
+      (object) array(
+         'shipping_address' => 
+        (object) array(
+           'recipient_name' => 'John Doe',
+           'line1' => '1 Main St',
+           'city' => 'San Jose',
+           'state' => 'CA',
+           'postal_code' => '95131',
+           'country_code' => 'US',
+        ),
+      ),
+       'related_resources' => 
+      array (
+      ),
+    ),
+  ),
+   'redirect_urls' => 
+  (object) array(
+     'return_url' => 'https://www.paypal.com/checkoutnow/error?paymentId=PAYID-MTZRRNA4LG61584FE857203B',
+     'cancel_url' => 'https://www.paypal.com/checkoutnow/error',
+  ),
+   'create_time' => '2023-09-02T11:12:52Z',
+   'update_time' => '2023-09-02T11:13:16Z',
+   'links' => 
+  array (
+    0 => 
+    (object) array(
+       'href' => 'https://api.sandbox.paypal.com/v1/payments/payment/PAYID-MTZRRNA4LG61584FE857203B',
+       'rel' => 'self',
+       'method' => 'GET',
+    ),
+    1 => 
+    (object) array(
+       'href' => 'https://api.sandbox.paypal.com/v1/payments/payment/PAYID-MTZRRNA4LG61584FE857203B/execute',
+       'rel' => 'execute',
+       'method' => 'POST',
+    ),
+    2 => 
+    (object) array(
+       'href' => 'https://www.sandbox.paypal.com/cgi-bin/webscr?cmd=_express-checkout&token=EC-3BJ761469K790952A',
+       'rel' => 'approval_url',
+       'method' => 'REDIRECT',
+    ),
+  ),
+)
