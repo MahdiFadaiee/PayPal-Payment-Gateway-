@@ -7,8 +7,8 @@
     $shipping_cost=5.00; //tax
     include_once 'generate_paypal_btn_auth.php';
     generate_paypal_button(
-        'PayPal/paypal3.php',
-        'PayPal/paypal2.php',
+        'paypal3.php',
+        'paypal2.php',
         'special-offer.php',
         'paypal-button',
         'COMPANY NAME TEST',
