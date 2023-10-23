@@ -1,2 +1,4 @@
 # PayPal-Payment-Gateway-
-sample of PayPal code
+open checkout.php every think is clearealy
+
+instagram: @mahdi_fadaiee
